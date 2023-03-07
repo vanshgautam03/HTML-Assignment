@@ -1,0 +1,326 @@
+/*general styling*/
+body{/*basic background and margin for the website*/
+    margin: 0px;
+    background: linear-gradient(to right, peachpuff , mediumpurple);
+}
+h1{/*styling for the main heading*/
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 50px;
+    color: #560584;
+    text-align: center;
+}
+h2,h3,h4,h5,h6,label,input{/*styling for the other headings and labels*/
+    font-family: Montserrat , sans-serif;
+}
+
+/*flex used for  main styling*/
+.flex > header{/* basic styling for the header*/
+    display: flex;
+    height: 100px;
+    width: auto;
+    padding: 0px 10px 20px 10px;
+    align-content: center;
+    background-color: khaki;
+}
+.flex > header > div{/*styling for the logo*/
+    height: 80px;
+    width: auto;
+}
+.flex > header > div > a > img{/*styling for the logo image*/
+    height: 170%;
+    width: auto;
+}
+.flex > header > section > div{
+    display: flex;
+}
+.flex > header > nav > menu{/*styling for the menu*/
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    justify-content: flex-end;
+    text-align: right;
+    padding-left: 40px;
+}
+.flex > header > nav > menu > li{/*padding for the menu items*/
+    padding: 50px 10px 0px 10px ;
+}
+.flex > header > nav > menu > li{/*styling for the menu items*/
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    color: darkblue;
+    text-align: right;
+    justify-content: flex-end;
+    cursor: pointer;
+    text-decoration: underline;
+    border-radius: 40px;
+}
+.flex > header > nav > menu > li > a:hover {/*styling for the menu items when hovered*/
+    color: #560584;
+    background-color: khaki;
+}
+.flex > header > nav > menu > li > a{/*styling for the menu items links*/
+    text-decoration: none;
+    color: darkblue;
+}
+.flex  > div > main{/*styling for the main content*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.head > h2{/*styling for the heading of the offer*/
+    font-size: 50px;
+    color: #560584;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+.flex > div > main > section{/*styling for the offers*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+#offers {/*styling for the offers*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    wrap-option: wrap;
+}
+.front{/*styling for the offers*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.front > a > img{/*styling for the offers images*/
+    height: 300px;
+    width: 440px;
+    padding: 20px;
+}
+.front > h3{/*styling for the offers headings*/
+    font-size: 30px;
+    color: #560584;
+    text-align: center;
+}
+.front > h4{/*styling for the offers headings*/
+    font-size: 20px;
+    color: #560584;
+    text-align: center;
+}
+.front > h4 + h4 {/*styling for the offers headings*/
+    margin-top: 1px;
+}
+.front > a > h4{/*styling for the offers headings*/
+    font-size: 20px;
+    color: #560584;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+#order{/*basic styling for the order*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+#order > div > h3{/*styling for the order heading*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    color: #560584;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    margin-top: 1px;
+}
+.order > p{/*styling for the order paragraph tag*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    color: #560584;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 1px;
+}
+#pizzas > div{/*styling for the pizza images*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+#pizzas > div > a > img{/*styling for the pizza images(size basically)*/
+    height: 300px;
+    width: 480px;
+}
+.form{/*basic styling for the form*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.form > h2{/*styling for the form heading*/
+    font-size: 30px;
+    color: #560584;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 0px;
+    padding-top: 5px;
+}
+.order{/*basic styling for the order which is the class for the form*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.order > label{/*styling for the form labels*/
+    font-size: 20px;
+    color: #560584;
+    font-weight: bolder;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.order > input{/*styling for the form inputs*/
+    font-size: 20px;
+    color: #560584;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 1px;
+}
+.order > select{/*styling for the form select*/
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 1px;
+}
+.order > input[type="radio"]{/*styling for the form radio buttons*/
+    font-size: 20px;
+    color: #560584;
+    font-weight: bolder;
+    font-style: italic;
+}
+.order > input[type="checkbox"]{/*styling for the form checkboxes*/
+    font-size: 20px;
+    color: #560584;
+    font-weight: bolder;
+    font-style: italic;
+}
+.order > input[type="submit"]{/*styling for the form submit button*/
+    font-size: 20px;
+    color: #560584;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 1px;
+    background-color: khaki;
+    border-radius: 40px;
+    border: 2px solid #560584;
+}
+.order > input[type="submit"]:hover{/*styling for the form submit button*/
+    color: khaki;
+    background-color: #560584;
+}
+.order > h3{/*styling for the form headings under main headings*/
+    font-size: 30px;
+    color: #560584;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 1px;
+}
+.order > h4{/*styling for the form headings under main headings*/
+    font-size: 20px;
+    color: #560584;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 1px;
+    padding-bottom: 5px;
+}
+#about-us {/*basic styling for the about us*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+#about-us > h2{/*styling for the about us heading*/
+    font-size: 50px;
+    color: #560584;
+    text-align: left;
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#about-us > img{/*styling for the about us  loga image*/
+    height: 300px;
+    width: 400px;
+    padding: 0px;
+    alignment: left;
+}
+#about-us > p{/*styling for the about us paragraph tag for the details in the about us section*/
+    font-size: 20px;
+    color: #560584;
+    text-align: left;
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+#about-us > p + p{/*styling for the about us paragraph tag for the details in the about us section*/
+    font-size: 20px;
+    color: #560584;
+    text-align: left;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 1.5;
+    margin-top: 0px;
+}
+#contact{/*basic styling for the contact us portion*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    wrap-option: wrap;
+}
+#contact > div > h2{/*styling for the contact us heading*/
+    font-size: 50px;
+    color: #560584;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 10px;
+    padding-top: 10px;
+    height: 50px;
+}
+#contact > h3{/*styling for the contact us headings under main heading of FAQ*/
+    font-size: 30px;
+    color: #560584;
+    font-style: italic;
+    font-weight: bolder;
+    height: 40px;
+}
+#contact > p {/*styling for the contact us paragraph tag for the details in the contact us section*/
+    font-size: 20px;
+    color: #560584;
+    font-style: italic;
+    font-weight: bolder;
+    height: 30px;
+}
+.label {/*styling for the labels for the sides deserts*/
+    font-size: 20px;
+    color: #560584;
+    font-style: italic;
+    font-weight: bolder;
+    height: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
